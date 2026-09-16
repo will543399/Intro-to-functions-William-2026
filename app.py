@@ -3,7 +3,7 @@ from turtle import *
 t=Turtle()
 t.shape('turtle')
 
-"""
+
 def message(input):
     print(input)
 message("Hello Class")
@@ -16,7 +16,7 @@ def square(x):
     t.fd(x)
     t.lt(90)
     t.fd(x)
-square(200)"""
+square(200) 
 
 def equal(x):
     t.fd(x)
@@ -25,6 +25,7 @@ def equal(x):
     t.rt(120)
     t.fd(x)
 equal(200)
+
 def right():
     t.forward(100)
     t.left(90)
@@ -32,5 +33,13 @@ def right():
     t.left(135)
     t.forward(142)
 right()
+
+def add(x,y):
+    #avaliable in the function
+    return x+y
+#sets the number up
+z=add(5,15)
+print(z)
+# This recalls the function by replacing it with z
 
 turtle.done()
