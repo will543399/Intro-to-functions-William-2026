@@ -37,7 +37,7 @@ square(5,90)
 for i in range(60):
     length=10
     square(length,90)
-    length=length +1000
+    length=length +5
     t.rt(5)
 turtle.done()
 ''' name=Inaya'''
