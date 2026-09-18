@@ -1,9 +1,9 @@
 import turtle
 from turtle import *
 t=Turtle()
-t.speed(10000)
+t.speed(0)
 t.shape("turtle")
-'''
+
 def square(x,y):
     t.fd(x)
     t.lt(y)
@@ -15,15 +15,10 @@ def square(x,y):
     t.lt(y)
 for i in range(100):
     square(200,90)
-    t.lt(5)'''
+    t.lt(5)
 
-'''
-def square(x,y):
-    for i in range(4):
-        t.forward(x)
-        t.left(y)
-
-def doublesquares(iRange):
+  
+def doublesquare(iRange):
     length=5
     for i in range(iRange):
         square(length,90)
@@ -37,7 +32,7 @@ square(5,90)
 for i in range(60):
     length=10
     square(length,90)
-    length=length +1000
+    length=length +5
     t.rt(5)
 turtle.done()
 ''' name=Inaya'''
@@ -61,3 +56,4 @@ turtle.done()
 #Boolean
 #x=True
 #y=False
+turtle.done()
