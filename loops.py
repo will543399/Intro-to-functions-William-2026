@@ -23,19 +23,31 @@ def doublesquare(iRange):
     for i in range(iRange):
         square(length,90)
         length=length*2
-doublesquares(5)'''
+doublesquares(5)
 def square(x,y):
     for i in range(4):
         t.forward(x)
         t.left(y)
 square(5,90)
+length=10
 for i in range(60):
-    length=10
     square(length,90)
-    length=length +5
+    length=length + 5
     t.rt(5)
+
+length=10
+def star(length):
+    for i in range(5):
+        t.fd(length)
+        t.rt(144)
+for i in range(60):
+    star(length)
+    length=length+5
+    t.rt(5)
+
+
 turtle.done()
-''' name=Inaya'''
+# name=Inaya
 #String are for characters
 #Input asks the user a question and records the answer
 #Input always outputs a string
