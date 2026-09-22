@@ -29,16 +29,28 @@ def doublesquares(iRange):
         square(length,90)
         length=length*2
 doublesquares(5)'''
-def square(x,y):
+""" def square(x,y):
     for i in range(4):
         t.forward(x)
         t.left(y)
 square(5,90)
+length=10
 for i in range(60):
-    length=10
     square(length,90)
     length=length +5
-    t.rt(5)
+    t.rt(5) """
+def star(x,y):
+    for i in range(5):
+        t.fd(x)
+        t.lt(y)
+star(7,144)
+def Doublestars(iRange):
+    length=8
+    for i in range(iRange):
+        star(length, 144)
+        length= length*1.07
+        t.rt(5)
+Doublestars(60)
 turtle.done()
 ''' name=Inaya'''
 #String are for characters
