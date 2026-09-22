@@ -1,9 +1,9 @@
 import turtle
 from turtle import *
 t=Turtle()
-t.speed(10000)
+t.speed(0)
 t.shape("turtle")
-'''
+
 def square(x,y):
     t.fd(x)
     t.lt(y)
@@ -15,21 +15,16 @@ def square(x,y):
     t.lt(y)
 for i in range(100):
     square(200,90)
-    t.lt(5)'''
+    t.lt(5)
 
-'''
-def square(x,y):
-    for i in range(4):
-        t.forward(x)
-        t.left(y)
-
-def doublesquares(iRange):
+  
+def doublesquare(iRange):
     length=5
     for i in range(iRange):
         square(length,90)
         length=length*2
-doublesquares(5)'''
-""" def square(x,y):
+doublesquares(5)
+def square(x,y):
     for i in range(4):
         t.forward(x)
         t.left(y)
@@ -37,22 +32,22 @@ square(5,90)
 length=10
 for i in range(60):
     square(length,90)
-    length=length +5
-    t.rt(5) """
-def star(x,y):
+    length=length + 5
+    t.rt(5)
+
+length=10
+def star(length):
     for i in range(5):
-        t.fd(x)
-        t.lt(y)
-star(7,144)
-def Doublestars(iRange):
-    length=8
-    for i in range(iRange):
-        star(length, 144)
-        length= length*1.07
-        t.rt(5)
-Doublestars(60)
+        t.fd(length)
+        t.rt(144)
+for i in range(60):
+    star(length)
+    length=length+5
+    t.rt(5)
+
+
 turtle.done()
-''' name=Inaya'''
+# name=Inaya
 #String are for characters
 #Input asks the user a question and records the answer
 #Input always outputs a string
@@ -73,3 +68,4 @@ turtle.done()
 #Boolean
 #x=True
 #y=False
+turtle.done()
